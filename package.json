@@ -1,0 +1,35 @@
+{
+  "name": "meanstarter",
+  "version": "1.0.0",
+  "description": "MEAN | Starter Template",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "dev": "nodemon --exec babel-node src/server/index.js",
+    "prestart": "babel src/server --out-dir dist",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhineettandon/meanstarter.git"
+  },
+  "author": "Abhineet Tandon",
+  "license": "ISC",
+  "homepage": "https://github.com/abhineettandon/meanstarter#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "bower": "^1.7.9",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.6",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "mocha": "^3.1.2"
+  }
+}

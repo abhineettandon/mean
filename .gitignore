@@ -1,0 +1,5 @@
+node_modules
+src/frontend/lib
+npm_debug
+.DS_Store
+dist
