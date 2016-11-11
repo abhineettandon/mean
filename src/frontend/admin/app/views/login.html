@@ -1,0 +1,22 @@
+<div id="login" class="col-md-4">
+	<div class="panel panel-primary">
+			<div class="panel-heading">
+					<h3 class="panel-title">Admin Login</h3>
+			</div>
+			<form name="form" data-ng-submit="login(formdata)">
+				<div class="panel-body">
+					<div class="form-group">
+						<label for="">Username</label>
+						<input type="text" class="form-control" placeholder="Username" data-ng-model="formdata.username">
+					</div>
+					<div class="form-group">
+						<label for="">Password</label>
+						<input type="password" class="form-control" id="" placeholder="Password"  data-ng-model="formdata.password">
+					</div>
+				</div>
+				<div class="panel-footer">
+					<button type="submit" class="btn btn-success">Login</button>
+				</div>
+			</form>
+	</div>
+</div>
